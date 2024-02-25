@@ -1,0 +1,148 @@
+<!DOCTYPE html> <!-- Specifies the document type and version of HTML being used. -->
+<html lang="en"> <!-- Defines the root element of the HTML document and specifies the language. -->
+<head> <!-- Contains meta-information about the HTML document, such as title, character set, and stylesheets.-->
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configures the viewport for responsive design. -->
+    <title>My Personal Web Page</title> <!-- Sets the title of the HTML document displayed in the browser tab. -->
+    <style> /* Contains CSS rules for styling the HTML elements. */
+    body{ /* Styles applied to the entire body of the HTML document. */
+        background-color: rgb(198, 209, 206);
+        font-family: 'Open Sans';
+        margin:0;
+        padding: 0;
+        color:black;
+    }
+
+    .container{ /* Styles applied to a container div. */
+        border: 2px solid black;
+        border-radius: 20px;
+        margin: 200px auto;
+        width: 1100px;
+        background-color: whitesmoke;
+        display: flex auto;
+        
+    }
+
+    .bordered { /* Styles for a bordered section. */
+        border: 1px solid black;
+        padding: 10px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .posimage{ /* Styles for positioning images. */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .posimage img{ /* Styles for positioning images inside .posimage. */
+        margin-right: 1em;
+        margin-bottom: 1em;
+    } 
+
+    img{ /* Styles for all images. */
+        width: 320px;
+        height: auto;
+    }
+
+    h1{ /* Styles for level 1 headings. */
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .text{ /* Styles for text content. */
+        text-align: justify;
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .b{ /* Styles for a block element with specific width and padding. */
+        height: auto;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+        float: left;
+    }
+
+    .pro{ /* Styles for a project section. */
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .proj{ /* Styles for project images. */
+        width: 750px;
+        height: auto;
+        margin-right: auto;    
+    }
+
+    .links{ /* Styles for contact information links. */
+        font-size: medium;
+        justify-content: center;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    a{ /* Styles for anchor (hyperlink) elements. */
+        color: inherit;
+        text-decoration:none;
+    }
+
+    footer{
+        text-align: center;
+    }
+    </style>
+</head>
+<body> <!-- Contains the content of the HTML document visible to the user. -->
+    <div class="container"> <!-- Defines a division or section in an HTML document. -->
+        <h1>About Me</h1>
+
+        <div class = "bordered">
+            <div class ="posimage">
+                <h2> <img src="profile.png" alt="Lance Jayron O. Sombilla"></h2>
+                <p><b>PERSONAL INFORMATION</b></p> <!--  define a paragraph of text and make the text bold. -->
+                <blockquote>Hello there! My name is Lance Jayron O. Sombilla, a 2nd year college student. Currently taking BS Information Technology. I thrive one exploring new ideas and embracing challenges. My hobbies includes watching series and movies, reading and cooking. Aspiring to be a Data Analyst or Database Administrator. </blockquote>  <!-- Highlighting Important Text -->
+            </div>
+        </div>
+
+        <div class="b">
+            <div class="text">
+                <p><b>EDUCATION</b></p>
+                    <blockquote>College: Laguna State Polytechnic University San Pablo City Campus<br> Year: 2022 - Present <hr></blockquote>
+                    <blockquote>Senior High School: Plaridel Integrated National High School <br> Year: 2020 - 2022 <hr></blockquote>
+                    <blockquote>High School: Plaridel Integrated National High School <br> Year: 2017 - 2020 <hr></blockquote>
+                    <blockquote>Elementary: San Francisco Elementary School <br> Year: 2010 - 2016 <hr></blockquote>
+            </div>
+        </div>
+
+        <div class="b">
+            <div class="text">
+                <p><b>SKILLS</b></p>
+                    <blockquote>I have skills in HTML, CSS, Java, C#, and MySQL. <br> <br>I'm doing good at web development and databases. <br><br>I solve problems and think critically to strategize effective solutions. <br><br>I adapt well in dynamic environments and manage time effectively.<br><br> I collaborate with the team effective to achieve common goals.<br><br> With these capabilities, I'm prepared to contribute significantly to any undertaking.<hr></blockquote>
+            </div>
+        </div>
+
+            <div class="pro">
+                <p><b>PROJECTS</b></p>
+                <div class ="posimage">
+                    <blockquote>A Help-Desk Priority Manager</blockquote>
+                    <img src="pr.png" alt="Project">
+                    <img src="pro.png" alt="Project">
+                    <blockquote>A game called Aeroblast</blockquote>
+                </div>   
+            </div>
+
+                <div class = "links">
+                    <p><b>CONTACT INFORMATION</b></p>
+                    <UL>University Email: <a href="mailto:0322-1834@lspu.edu.ph">0322-1834@lspu.edu.ph</a></UL> <!--  create hyperlinks and unordered list element -->
+                    <UL>Personal Email: <a href="mailto:sombillalans@gmail.com">sombillalans@gmail.com</a></UL>
+                    <UL>Contact Number: 0918 436 9105</UL>
+                    <UL>Facebook: <a href="https://www.facebook.com/lansjayron">Lance Jayron Sombilla</a></UL>
+                    <UL>LinkedIn: <a href="https://www.linkedin.com/in/lance-jayron-sombilla-6b45702b6/"> Lance Jayron Sombilla</a></UL>
+                </div> 
+
+    </div>
+
+    <footer> <p>&copy; 2024 Lance Jayron Sombilla. All rights reserved. </p></footer>
+</body>
+</html>
